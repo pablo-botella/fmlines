@@ -44,6 +44,10 @@ flr.ReadLine() / flr.ReadHeader() / flr.ReadAll()           // same, no params
   Invalid but keep RawLine, LineNum and Parent: recoverable by any consumer
   that wants to parse further. Deliberately NO array support, NO ToMap —
   both were tried and removed: extraction only.
+- Scope: a minimalist take for SIMPLE front matter. Needing more control
+  (real YAML: lists, types, the full spec) is the signal to use a full
+  parser (gopkg.in/yaml.v3, goccy/go-yaml) — do not grow that machinery
+  here.
 
 ## Tests
 
