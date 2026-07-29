@@ -11,6 +11,9 @@
 // everything (.fm: everything is header).
 package fmlines
 
+// The docs are composed from _mkskill/ — edit the sources there, then:
+//go:generate go run github.com/ot4go/mkskill/cmd/mkskill@latest build
+
 import (
 	"fmt"
 	"io"
