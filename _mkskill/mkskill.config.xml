@@ -2,9 +2,9 @@
 <mkskill>
   <project id="main" name="fmlines" project-type="Go-Module">
     <meta>
-      <module>github.com/ot4go/fmlines</module>
+      <module>github.com/pablo-botella/fmlines</module>
       <license>MIT</license>
-      <description>Front matter line extractor for Go — tokenizes headers line by line (fences, key-values, sections, invalids) over ot4go/linereader, leaving the document body unread in the reader. Use when working with github.com/ot4go/fmlines or when a Go project needs to read .md front matter or bare .fm headers without a YAML engine.</description>
+      <description>Front matter line extractor for Go — tokenizes headers line by line (fences, key-values, sections, invalids) over pablo-botella/linereader, leaving the document body unread in the reader. Use when working with github.com/pablo-botella/fmlines or when a Go project needs to read .md front matter or bare .fm headers without a YAML engine.</description>
     </meta>
   </project>
 </mkskill>

@@ -7,6 +7,6 @@ mkskill:
 ## Install
 
 ```
-go get github.com/ot4go/fmlines
+go get github.com/pablo-botella/fmlines
 ```
 

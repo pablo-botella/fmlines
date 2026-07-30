@@ -4,7 +4,7 @@
 // business. Every line read becomes a token, the unrecognized ones too —
 // raw and numbered, never lost.
 //
-// It reads through a github.com/ot4go/linereader LineReader. The family:
+// It reads through a github.com/pablo-botella/linereader LineReader. The family:
 // ReadLine takes ONE line into the list and tells its type, ReadHeader
 // takes a fenced header (.md) and stops right after the closing --- — the
 // body stays in the reader, keep reading it there — and ReadAll takes
@@ -12,14 +12,14 @@
 package fmlines
 
 // The docs are composed from _mkskill/ — edit the sources there, then:
-//go:generate go run github.com/ot4go/mkskill/cmd/mkskill@latest build
+//go:generate go run github.com/pablo-botella/mkskill/cmd/mkskill@latest build
 
 import (
 	"fmt"
 	"io"
 	"strings"
 
-	"github.com/ot4go/linereader"
+	"github.com/pablo-botella/linereader"
 )
 
 type FmLineType int

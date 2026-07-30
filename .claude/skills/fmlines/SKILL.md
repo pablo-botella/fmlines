@@ -1,14 +1,14 @@
 ---
 name: fmlines
-description: "Front matter line extractor for Go — tokenizes headers line by line (fences, key-values, sections, invalids) over ot4go/linereader, leaving the document body unread in the reader. Use when working with github.com/ot4go/fmlines or when a Go project needs to read .md front matter or bare .fm headers without a YAML engine."
+description: "Front matter line extractor for Go — tokenizes headers line by line (fences, key-values, sections, invalids) over pablo-botella/linereader, leaving the document body unread in the reader. Use when working with github.com/pablo-botella/fmlines or when a Go project needs to read .md front matter or bare .fm headers without a YAML engine."
 ---
 
 # fmlines — agent notes
 
-Go package `github.com/ot4go/fmlines`: a front matter LINE EXTRACTOR — not
+Go package `github.com/pablo-botella/fmlines`: a front matter LINE EXTRACTOR — not
 a parser. It tokenizes and classifies; interpreting the dialect (which keys
 mean what) is the consumer's job. Depends only on
-`github.com/ot4go/linereader`.
+`github.com/pablo-botella/linereader`.
 
 ## API
 

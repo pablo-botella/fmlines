@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ot4go/fmlines"
-	"github.com/ot4go/linereader"
+	"github.com/pablo-botella/fmlines"
+	"github.com/pablo-botella/linereader"
 )
 
 func reader(content string) *linereader.LineReader {

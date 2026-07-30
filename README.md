@@ -37,7 +37,7 @@ consumer.
 ## The three doors
 
 All of them speak `linereader.IoLineReader` (anything with a
-`ReadLine() ([]byte, error)` — `github.com/ot4go/linereader` is the
+`ReadLine() ([]byte, error)` — `github.com/pablo-botella/linereader` is the
 reference):
 
 - **`lines.ReadLine(lr)`** — one line in, its `FmLineType` out.
@@ -71,7 +71,7 @@ with them.
 ## Install
 
 ```
-go get github.com/ot4go/fmlines
+go get github.com/pablo-botella/fmlines
 ```
 
 ## License

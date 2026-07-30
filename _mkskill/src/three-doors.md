@@ -7,7 +7,7 @@ mkskill:
 ## The three doors
 
 All of them speak `linereader.IoLineReader` (anything with a
-`ReadLine() ([]byte, error)` — `github.com/ot4go/linereader` is the
+`ReadLine() ([]byte, error)` — `github.com/pablo-botella/linereader` is the
 reference):
 
 - **`lines.ReadLine(lr)`** — one line in, its `FmLineType` out.
