@@ -1,5 +1,5 @@
-module github.com/ot4go/fmlines
+module github.com/pablo-botella/fmlines
 
 go 1.26
 
-require github.com/ot4go/linereader v0.0.2
+require github.com/pablo-botella/linereader v0.0.2
