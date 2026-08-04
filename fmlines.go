@@ -12,7 +12,8 @@
 package fmlines
 
 // The docs are composed from _mkskill/ — edit the sources there, then:
-//go:generate go run github.com/pablo-botella/mkskill/cmd/mkskill@latest build
+//go:generate go run github.com/pablo-botella/mkskill/cmd/mkskill@latest -q build
+//go:generate go run github.com/pablo-botella/mkskill/cmd/mkskill@latest -q -vbuild
 
 import (
 	"fmt"
